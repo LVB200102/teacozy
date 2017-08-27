@@ -33,7 +33,7 @@ nav span{
   align-items:right;
   flex-wrap: wrap;
 }
-header nav{
+header nav ul{
   display: inline-flex;
   align-items: flex-end;
 }
@@ -41,4 +41,7 @@ ul{
   list-style-type: none;
     margin: 0px;
     padding: 0px;
+  }
+  div{
+    display:flex;
   }
