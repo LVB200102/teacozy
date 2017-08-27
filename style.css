@@ -1,12 +1,14 @@
-.header{
+.header header{
   background-color: black;
   height:70px;
   position:fixed;
   display:flex;
   width:100%;
   top:0px;
-  left:0px;
+  left: 0px;
   border-bottom: 1px solid seashell;
+   flex-wrap: wrap;
+  align-items: center;
 }
 body{
   background-color: black;
@@ -26,6 +28,9 @@ body{
 .header .nav nav a:visited, .header .nav nav a:link{
   color:seashell;
 }
-nav{
-  text-align: right;
+nav span{
+  padiing: 20px 10px;
+  align-items:right;
+  flex-wrap: wrap;
+  
 }
