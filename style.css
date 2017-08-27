@@ -1,14 +1,19 @@
-.header header{
+ header {
   background-color: black;
   height:70px;
   position:fixed;
-  display:flex;
+  display: inline-flex;
   width:100%;
   top:0px;
   left: 0px;
   border-bottom: 1px solid seashell;
    flex-wrap: wrap;
   align-items: center;
+}
+.flex-container{
+  display:inline-flex;
+  justify-content: flex-end;
+
 }
 body{
   background-color: black;
@@ -19,29 +24,13 @@ body{
   display:inline-flex;
   justify-content: center;
 }
-.header #logo img{
+ header #logo img{
   height:50px;
   padding-left: 10px;
   display: flex;
   justify-content: flex-start;
 }
-.header .nav nav a:visited, .header .nav nav a:link{
-  color:seashell;
-}
-nav span{
-  padding: 20px 10px;
-  align-items:right;
-  flex-wrap: wrap;
-}
-header nav ul{
+header nav{
   display: inline-flex;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
-ul{
-  list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-  }
-  div{
-    display:flex;
-  }
