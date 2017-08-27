@@ -65,7 +65,9 @@ margin-bottom: 0px;
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
-
+}
+h4{
+  text-align: center;
 }
 #timage {
   width: 300px;
