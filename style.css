@@ -1,0 +1,31 @@
+.header{
+  background-color: black;
+  height:70px;
+  position:fixed;
+  display:flex;
+  width:100%;
+  top:0px;
+  left:0px;
+  border-bottom: 1px solid seashell;
+}
+body{
+  background-color: black;
+  font-family:Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  display:inline-flex;
+  justify-content: center;
+}
+.header #logo img{
+  height:50px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.header .nav nav a:visited, .header .nav nav a:link{
+  color:seashell;
+}
+nav{
+  text-align: right;
+}
