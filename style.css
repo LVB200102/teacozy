@@ -29,20 +29,20 @@ body{
   padding: 20px 10px;
 }
 .mission{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-background-position: center;
-  width:1200px;
+  width:100%;
   display:flex;
   margin-top: 70px;
   justify-content: center;
   text-align: center;
   height:700px;
+  width:100%;
+
 }
 .mission .mission2 h2{
   display: flex;
   justify-content: center;
 margin-top: 300px;
 }
-.main-content{
-  width: 100%;
+.main-content .mission{
+  width:100%;
 }
