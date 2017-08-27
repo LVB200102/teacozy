@@ -66,32 +66,23 @@ margin-bottom: 0px;
   width: 100%;
   flex-wrap: wrap;
 }
-h4{
-  text-align: center;
-}
 #timage {
   width: 300px;
   height:200px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .shop{
   width:1000px;
   height:700px;
   padding-top: 70px;
   margin: auto;
+  text-align: center;
 }
 #bblitz, #myrtle, #bizarre, #donut, #rum{
   display: block;
   padding:5px;
 }
-#myrtle{
-  margin-left: 175px;
-}
-#bizarre{
-  margin-right: 175px;
-}
-#month-tea{
-  display: block;
-  justify-content: center;
-  text-align: center;
+.tea2{
+  display: flex;
+  justify-content: space-around;
 }
