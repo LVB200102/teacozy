@@ -19,6 +19,7 @@ body{
   opacity: 0.9;
   display:inline-flex;
   justify-content: center;
+  width:100%;
 }
  header #logo img{
   height:50px;
@@ -28,21 +29,67 @@ body{
   color:seashell;
   padding: 20px 10px;
 }
-.mission{
+.main-content{
   width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mission{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   display:flex;
   margin-top: 70px;
   justify-content: center;
   text-align: center;
   height:700px;
-  width:100%;
-
+width:1200px;
 }
-.mission .mission2 h2{
+.mission  h2{
   display: flex;
   justify-content: center;
 margin-top: 300px;
 }
-.main-content .mission{
-  width:100%;
+.mission #main-image h2, .mission #main-image h4{
+  background-color: black;
+  width:1200px;
+padding:10px;
+margin-bottom: 0px;
+}
+.mission #main-image h4{
+  margin-top: 0px;
+}
+.tea-images{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+#timage {
+  width: 300px;
+  height:200px;
+  flex-wrap: wrap;
+}
+.shop{
+  width:1000px;
+  height:700px;
+  padding-top: 70px;
+  margin: auto;
+}
+#bblitz, #myrtle, #bizarre, #donut, #rum{
+  display: block;
+  padding:5px;
+}
+#myrtle{
+  margin-left: 175px;
+}
+#bizarre{
+  margin-right: 175px;
+}
+#month-tea{
+  display: block;
+  justify-content: center;
+  text-align: center;
 }
