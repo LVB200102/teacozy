@@ -158,5 +158,6 @@ margin-bottom: 0px;
   text-align: left;
   justify-content: flex-start;
   margin-left: 20px;
-  width: 100%;
+  width: auto;
+  padding-bottom: 30px;
 }
